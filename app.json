@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.abdulrahim3951.PMDassignment1"
     },
     "web": {
       "bundler": "metro",
@@ -31,7 +32,15 @@
     ],
     "experiments": {
       "typedRoutes": true,
-      "tsconfigPaths" : true
+      "tsconfigPaths": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "455caf3f-04b2-401a-9403-69abc90384fb"
+      }
     }
   }
 }
