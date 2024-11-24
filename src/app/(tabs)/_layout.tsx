@@ -41,6 +41,18 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
         }}
       />
+      <Tabs.Screen
+        name="[match]"
+        options={{
+          href: null,
+        }}
+      />
+      <Tabs.Screen
+        name="/football/[match]"
+        options={{
+          href: null,
+        }}
+      />
     </Tabs>
   );
 }
